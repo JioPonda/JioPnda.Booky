@@ -178,7 +178,7 @@ nav li a:hover {
 
 #dollars-button {
     height: 50px;
-    width: 80%;
+    width: 180px;
     background-color: #fff;
     border-radius: 30px;
     border-color: #F2F2F2;
@@ -211,7 +211,7 @@ nav li a:hover {
 
 #family-button {
     height: 50px;
-    width: 80%;
+    width: 150px;
     background-color: #fff;
     border-radius: 30px;
     border-color: #F2F2F2;
@@ -244,7 +244,7 @@ nav li a:hover {
 
 #heart-button {
     height: 50px;
-    width: 80%;
+    width: 180px;
     background-color: #fff;
     border-radius: 30px;
     border-color: #F2F2F2;
@@ -277,7 +277,7 @@ nav li a:hover {
 
 #animals-button {
     height: 50px;
-    width: 110%;
+    width: 250px;
     background-color: #fff;
     border-radius: 30px;
     border-color: #F2F2F2;

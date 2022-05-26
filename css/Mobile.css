@@ -10,7 +10,7 @@ body {
 /* NAVIGATION */
 
 nav {
-    width: 110%;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     margin: 0%;
@@ -84,7 +84,7 @@ nav li a:hover {
     justify-content: center;
     align-items: center;
     position: absolute;
-    height: 15%;
+    height: 125px;
     width: 15%;
     margin-top: 0.4%;
     margin-left: -5%;
@@ -112,7 +112,7 @@ nav li a:hover {
 
 .Where {
     position: absolute;
-    height: 15%;
+    height: 125px;
     width: 65%;
     margin-left: 10%;
 }
@@ -126,7 +126,7 @@ nav li a:hover {
     justify-content: center;
     align-items: center;
     position: absolute;
-    height: 15%;
+    height: 125px;
     width: 15%;
     margin-top: 0.4%;
     margin-left: 70%;
@@ -150,8 +150,6 @@ nav li a:hover {
     z-index: 1;
 }
 
-
-
 /* FILTRES */
 
 .filters {
@@ -160,80 +158,89 @@ nav li a:hover {
     margin-top: 250px;
 }
 
+.filters h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
 .mobile-dolars {
-    position: absolute;
-    margin: 10% 0 0 0;
+    position: relative;
+    margin: -45px 0 0 -6%;
+    padding: 3%;
 }
 
 #icon-dollars {
-    height: 100%;
-    width: 25%;
-    border-radius: 90px;
+    height: 95px;
+    width: 95px;
+    border-radius: 150px;
     margin-left: 0%;
     font-size: 35px;
     margin-left: 6%;
 }
 
 #dollars-button {
-    height: 80px;
-    width: 90%;
+    height: 90px;
+    width: 280px;
     border-radius: 80px;
     font-size: 30px;
     margin-left: 25px;
 }
 
 .mobile-family {
-    position: absolute;
-    margin: 10% 0 0 45%;
+    position: relative;
+    margin: -140px 0% 0 45%;
+    padding: 3%;
 }
 
 #icon-person {
-    height: 100%;
-    width: 32%;
-    border-radius: 90px;
+    height: 95px;
+    width: 95px;
+    border-radius: 150px;
     margin-left: 0%;
     font-size: 35px;
     margin-left: 6%;
 }
 
 #family-button {
-    height: 80px;
-    width: 100%;
+    height: 90px;
+    width: 280px;
     border-radius: 80px;
     font-size: 30px;
     margin-left: 25px;
 }
 
 .mobile-heart {
-    position: absolute;
-    margin: 25% 0 0 0;
+    position: relative;
+    margin: 0px 0 0 -6%;
+    padding: 3%;
 }
 
 #icon-heart {
-    height: 100%;
-    width: 28%;
-    border-radius: 90px;
+    height: 95px;
+    width: 95px;
+    border-radius: 150px;
     margin-left: 0%;
     font-size: 35px;
     margin-left: 6%;
 }
 
 #heart-button {
-    height: 80px;
-    width: 100%;
+    height: 90px;
+    width: 250px;
     border-radius: 80px;
     font-size: 30px;
-    margin-left: 25px;
+    margin-left: 40px;
 }
 
 .mobile-animal {
-    position: absolute;
-    margin: 40% 0 0 0;
+    position: relative;
+    margin: 0% 0 0 -6%;
+    padding: 3%;
 }
 
 #icon-dog {
-    height: 100%;
-    width: 28%;
+    height: 95px;
+    width: 95px;
     border-radius: 90px;
     margin-left: 0%;
     font-size: 35px;
@@ -241,45 +248,48 @@ nav li a:hover {
 }
 
 #animals-button {
-    height: 80px;
-    width: 120%;
+    height: 90px;
+    width: 380px;
     border-radius: 80px;
     font-size: 30px;
-    margin-left: 25px;
+    margin-left: 48px;
 }
 
 #infos-head {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: row;
     width: 80%;
-    margin-top: 50%;
+    margin-top: 10px;
     margin-left: 5%;
     font-size: 22px;
 }
 
 #icon-info {
-    margin-top: 3%;
+    height: 30px;
+    width: 40px;
+    border-radius: 90px;
+    margin-top: 30px;
 }
 
 /* POPULAR */
 
 #popular {
-    position: absolute;
-    height: 1300px;
-    width: 110%;
+    position: relative;
+    height: 1500px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     border-radius: 0;
     background-color: #F2F2F2;
-    margin-bottom: -1300px;
-    margin-left: 10%;
+    margin-bottom: 1000px;
+    margin-left: 0%;
 }
 
 #popular a {
-    width: 90%;
+    width: 100%;
     height: 350px;
-    margin-left: 5%;
+    margin: 0px;
     padding: 2% 0 2% 0%;
     background-color: #F2F2F2;
     
@@ -298,7 +308,10 @@ nav li a:hover {
 }
 
 .card-2 {
+    width: 90%;
     border-radius: 50px;
+    margin-left: 5%;
+    margin-top: -10px;
 }
 
 .card-2-img-container {
@@ -323,7 +336,7 @@ nav li a:hover {
 
 #mobil-column {
     height: 500px;
-    width: 110%;
+    width: 100%;
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: nowrap;
@@ -333,7 +346,7 @@ nav li a:hover {
 
 .lodging-title {
     position: absolute;
-    margin-top: -500px;
+    margin-top: -518px;
     margin-right: 20%;
     font-size: 40px;
     font-weight: bolder;
@@ -341,15 +354,15 @@ nav li a:hover {
 
 #lodging {
     height: 600px;
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     background-color: #FFF;
     border-radius: 15px;
-    margin-right: -5%;
-    margin-bottom: -2420px;
+    margin-right: 3%;
+    margin-bottom: -1900px;
 }
 
 .card-lodging{
@@ -396,8 +409,8 @@ nav li a:hover {
     width: 90%;
     display: flex;
     flex-direction: column;
-    margin-top: 4500px;
-    margin-left: 5%;
+    margin-top: 3950px;
+    margin-left: 3%;
 }
 
 .activity-title {
@@ -428,7 +441,7 @@ nav li a:hover {
 
 .card-high {
     height: 400px ;
-    width: 110% ;
+    width: 100% ;
     margin: 0px auto;
     background-color: #fff;
     box-shadow: 0px 5px 20px #999;
@@ -459,7 +472,7 @@ nav li a:hover {
 
 .card-wide {
     height: 400px ;
-    width: 220% ;
+    width: 200% ;
     margin: 0px auto;
     background-color: #fff;
     box-shadow: 0px 5px 20px #999;
@@ -496,7 +509,7 @@ nav li a:hover {
 
 #footer-page {
     height: 100%;
-    width: 110%;
+    width: 100%;
     flex-direction: column;
     align-items: flex-start;
     margin: 1950px 0% 0% 0%;
@@ -533,6 +546,7 @@ footer h3 {
     padding-bottom: 3%;
     padding-right: 0%;
 }
+
 .foot-info-2 ul {
     list-style: none;
     padding-left: 0px;
@@ -558,45 +572,499 @@ footer h3 {
 }
 
 @media screen and (max-width: 425px) {
-
+    
+    /* NAVIGATION */
     nav {
-        width: 120%
+        width: 100%;
+        overflow:visible;
+    }
+
+    .logo-Booki {
+        margin-left: 40%;
     }
 
     .anchor-lodging {
-        padding: 18px 15% 0% 15%;
+        margin-left: -4%;
+        padding: 18px 20% 18px 20%;
+        font-size: 25px;
     }
     
     .anchor-activity {
-        margin-left: 60%;
-        padding: 18px 15% 0% 15%;
+        margin-left: 18%;
+        padding: 18px 41% 18px 41%;
+        font-size: 25px;
     }
 
-    #lodging {
+    /* SEARCH ZONE */
+
+    .search-map-button {
+        height: 90px;
+        width: 20%;
+    }
+
+    .search-title h1 {
+        font-size: 29px;
+        width: 100%;
+        margin-left: 5%;
+    }
+    
+    .search-title p {
+        font-size: 19px;
+        margin-left: 5%;
+    }
+
+    .search-bar{
+        margin-left: 5%;
+    }
+
+    .map-button {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+
+    #icon-map {
+        font-size: 50px;
+        margin-bottom: 23%;
+        margin-left: -8%;
+    }
+
+    .Where {
+        font-size: 30px;
+        height: 100px;
+        width: 300px;
+        margin-left: 13%;
+        margin-top: -6px;
+    }
+
+    #search-button-mobile {
+        height: 101px;
+        width: 100px;
+        margin-left: 80%;
+        margin-top: -3px;
+    }
+
+    .button-mobile {
+        border-radius: 35px;
+    }
+    
+    #icon-loupe {
+        font-size: 50px;
+    }
+    
+    /* Filtres */
+
+    .filters {
+        margin-top: 180px;
+    }
+
+    .filters h2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .mobile-dolars {
+        margin: -20px 0 0 -6%;
+        padding: 3%;
+    }
+
+    #icon-dollars {
+        height: 75px;
+        width: 75px;
+        border-radius: 150px;
+        margin-left: 0%;
+        font-size: 35px;
+        margin-left: 6%;
+    }
+
+    #dollars-button {
+        height: 70px;
+        width: 180px;
+        border-radius: 80px;
+        font-size: 15px;
+        margin-left: 25px;
+    }
+
+    .mobile-family {
+        margin: -99px 0% 0 60%;
+        padding: 3%;
+    }
+    
+    #icon-person {
+        height: 75px;
+        width: 75px;
+        border-radius: 150px;
+        margin-left: 0%;
+        font-size: 35px;
+        margin-left: 6%;
+    }
+    
+    #family-button {
+        height: 70px;
+        width: 180px;
+        border-radius: 80px;
+        font-size: 15px;
+        margin-left: 25px;
+    }
+
+    .mobile-heart {
+        margin: 0px 0 0 -6%;
+        padding: 3%;
+    }
+    
+    #icon-heart {
+        height: 75px;
+        width: 75px;
+        border-radius: 150px;
+        margin-left: 0%;
+        font-size: 35px;
+        margin-left: 6%;
+    }
+    
+    #heart-button {
+        height: 70px;
+        width: 180px;
+        border-radius: 80px;
+        font-size: 15px;
+        margin-left: 25px;
+    }
+
+    .mobile-animal {
+        margin: 0% 0 0 -6%;
+        padding: 3%;
+    }
+    
+    #icon-dog {
+        height: 75px;
+        width: 75px;
+        border-radius: 90px;
+        margin-left: 0%;
+        font-size: 35px;
+        margin-left: 6%;
+    }
+    
+    #animals-button {
+        height: 70px;
+        width: 250px;
+        border-radius: 80px;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    
+    #infos-head {
+        font-size: 15px;
         width: 100%;
     }
-
+    
+    #icon-info {
+        height: 20px;
+        width: 20px;
+        margin-top: 20px;
+    }
+    
+    /*  POPULAR */
+    
     #popular {
-        width: 120%;
-        margin-left: 20%;
+        width: 126%;
+        margin-left: 26%;
+        margin-bottom: 950px;
     }
-
-    #activity {
-        width: 90%;
+    
+    .popular-title {
+        font-size: 25px;
     }
-
+    
     #black-star {
         margin-left: 0%;
     }
+    
+    #popular a {
+        width: 100%;
+        height: 222px;
+    }
 
     .card-2-infos {
-        margin-top: 20px;
-        font-size: 10px;
-        margin-left: 2%;
+        font-size: 20px;
+    }
+
+    .card-2-notation{
+        margin-top: 50px;
+    }
+
+    /* LODGING */
+    
+    #lodging {
+        width: 120%;
+        margin : -352px -22% -1310px 0%;
+    }
+
+    .lodging-title {
+        margin-top: -350px;
+        font-size: 25px;
+        margin-right: 0%;
+        width: 100%;
+    }
+
+    .card-lodging{
+        width: 90%;
+    }
+
+    .card-lodging-down {
+        margin-top: 600px;
+    }
+
+    .card-1 {
+        height: 65%;
+    }
+
+    .card-1-info {
+        font-size: 25px;
+    }
+
+    .see-more{
+        font-size: 20px;
+        margin-top: 2120px;
+    }
+
+    /* ACTIVITY */
+
+    #activity {
+        width: 119%;
+        margin-top: 2860px;
+    }
+
+    .activity-title {
+        font-size: 25px;
+        margin-left: 5%;
+    }
+
+    .card-3-left {
+        margin-top: 590px;
+    }
+    
+    .card-high h3{
+        font-size: 25px;
+    }
+
+    .card-wide h3 {
+        font-size: 20px;
+    }
+
+    /* FOOTER */
+
+    #footer-page {
+        width: 125.5%;
+        margin-top: 1790px;
+    }
+
+    .foot-info-1 {
+        font-size: 20px;
+    }
+
+    .foot-info-2 {
+        font-size: 20px;
+    }
+
+    .foot-info-3 {
+        font-size: 20px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 375px) {
+
+    /* NAVIGATION */
+
+    .anchor-lodging {
+        margin-left: -7%;
+        padding: 18px 18% 18px 18%;
+        font-size: 25px;
+    }
+
+    .anchor-activity {
+    margin-left: 22%;
+    padding: 18px 35% 18px 35%;
+    font-size: 25px;
+    }
+
+    /* SEARCH ZONE */
+
+    .search-title h1 {
+        font-size: 22px;
+    }
+
+    .search-title p {
+        font-size: 18px;
+    }
+
+    .search-bar{
+        margin-left: 7%;
+        margin-top: -50px;
+    }
+
+    .map-button {
+        height: 90px;
+        width: 90px;
+    }
+
+    #icon-map {
+        margin-left: -25%;
+    }
+
+    .Where {
+        font-size: 20px;
+        height: 90px;
+        width: 270px;
+        margin-top: -2px;
+    }
+
+    #search-button-mobile {
+        height: 91px;
+        width: 90px;
+        margin-left: 80%;
+        margin-top: 0px;
+    }
+
+    /* FILTRES */
+
+    .filters h2 {
+        font-size: 25px;
+    }
+
+    .mobile-dolars {
+        margin: -20px 0 0 -9%;
+    }
+
+    #icon-dollars {
+        height: 56px;
+        width: 56px;
+        font-size: 25px;
+        margin-left: 10%;
+    }
+
+    #dollars-button {
+        height: 50px;
+        width: 160px;
+        font-size: 15px;
+    }
+
+    .mobile-family {
+        margin: -74px 0% 0 60%;
+    }
+    
+    #icon-person {
+        height: 56px;
+        width: 56px;
+        font-size: 25px;
+        margin-left: 10%;
+    }
+    
+    #family-button {
+        height: 50px;
+        width: 160px;
+        font-size: 15px;
+    }
+
+    .mobile-heart {
+        margin: 0px 0 0 -9%;
+    }
+    
+    #icon-heart {
+        height: 56px;
+        width: 56px;
+        font-size: 25px;
+        margin-left: 10%;
+    }
+    
+    #heart-button {
+        height: 50px;
+        width: 160px;
+        font-size: 15px;
+    }
+
+    .mobile-animal {
+        margin: 0% 0 0 -10%;
+    }
+    
+    #icon-dog {
+        height: 56px;
+        width: 56px;
+        font-size: 25px;
+        margin-left: 10%;
+    }
+    
+    #animals-button {
+        height: 50px;
+        width: 200px;
+        font-size: 15px;
+        margin-left: 35px;
+    }
+
+    #infos-head {
+        font-size: 15px;
+        width: 100%;
+    }
+    
+    #icon-info {
+        height: 25px;
+        width: 35px;
+        margin-top: 18px;
+    }
+
+    /*  POPULAR */
+    
+    #popular {
+        width: 126%;
+        margin-left: 26%;
+        margin-bottom: 913px;
+    }
+
+    .popular-title {
+        font-size: 20px;
+    }
+
+    .card-2-infos {
+        font-size: 18px;
+        margin-top: 0%;
+    }
+
+    /* LODGING */
+
+    #lodging {
+        width: 120%;
+        margin : -352px -22% -1250px 0%;
+    }
+
+    .lodging-title {
+        margin-top: -326px;
+    }
+
+    .card-lodging-down {
+        margin-top: 580px;
+    }
+
+    .see-more{
+        font-size: 19px;
+        margin-top: 2095px;
+    }
+
+    /* ACTIVITY */
+
+    #activity {
+        width: 119%;
+        margin-top: 2765px;
+    }
+
+    .card-3-left {
+        margin-top: 535px;
     }
 
     #footer-page {
-        width: 101.5%;
+        width: 125.5%;
+        margin-top: 1635px;
     }
-
 }
